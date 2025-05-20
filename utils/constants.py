@@ -1,0 +1,1 @@
+PROTECTED_DRIVES = ['C', 'System Reserved', 'Recovery', 'EFI']
