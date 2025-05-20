@@ -1,6 +1,7 @@
 import subprocess
 from tkinter import messagebox
-from utils.constants import PROTECTED_DRIVES
+
+PROTECTED_DRIVES = ['C', 'System Reserved', 'Recovery', 'EFI']
 
 def format_drive(mountpoint):
     try:
@@ -18,5 +19,3 @@ def format_drive(mountpoint):
         messagebox.showinfo("Success", f"{mountpoint} formatted successfully.")
     except subprocess.CalledProcessError:
         messagebox.showerror("Error", "Failed to format the drive.")
-    except PermissionError:
-        messagebox.showerror("Permission Denied", "You must run this program as administrator.")

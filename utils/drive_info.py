@@ -17,6 +17,7 @@ def get_drive_info():
                     percent_used = usage.percent
 
                     volume_label = logical_disk.VolumeName or "Unknown"
+
                     label = f"Disk {disk_index + 1} - {volume_label} ({mountpoint})"
 
                     drives.append({
@@ -32,5 +33,4 @@ def get_drive_info():
                     })
                 except Exception:
                     continue
-
     return drives
