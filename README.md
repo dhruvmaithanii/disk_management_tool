@@ -97,8 +97,10 @@ python main.py
 
 ## 👥 Team Contributions
 
-- **Pranav Chamoli** – GUI, drive logic, utility structure, and logging  
-- [Add your teammates and their roles]
+- **Dhruv Maithani** 
+- **Pranav Chamoli**
+- **Animesh Mamgain**
+- **Priyanshu Bisht**
 
 ---
 
